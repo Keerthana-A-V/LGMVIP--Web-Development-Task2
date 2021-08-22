@@ -1,0 +1,31 @@
+.nav-pad{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: black;
+  margin-bottom: 30px !important;
+}
+.brand{
+  font-size: 1.5rem;
+  color: rgb(247, 31, 31) !important;
+  outline: none;
+  animation: animate 5s linear infinite;
+}
+@keyframes animate{
+  0%,18%,20%,50%,65.1%,80%,90.1%,92%{
+    color: rgb(247, 31, 31);
+    text-shadow: none;
+  }
+  18.1%,20.1%,30%,50.1%,60.1%,65%,80.1%,90%,92.1%,100%{
+    color: #fff;
+    text-shadow: 0 0 10px #2196f3,
+    0 0 20px #2196f3,
+    0 0 40px #2196f3,
+    0 0 80px #2196f3,
+    0 0 160px #2196f3;
+  }
+}
+
+.credit{
+  font-size: 18px;
+  color: #8d8f91;
+}
